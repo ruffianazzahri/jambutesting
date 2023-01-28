@@ -1,0 +1,95 @@
+.navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-light {
+  background-color: rgba(143, 191, 38, 0.2) !important;
+  border: none !important;
+  border-width: 0 !important;
+}
+
+.bg-light {
+  color: #8fbf26;
+}
+
+.navbar-custom {
+  background-color: #8fbf26;
+}
+iframe {
+  border-radius: 10px;
+}
+
+body {
+  background: #ffffff;
+}
+
+.wrapper {
+  margin: 150px auto;
+}
+
+.text-box {
+  color: black;
+}
+
+.text-box h1 {
+  color: black;
+}
+
+.text-box p {
+  color: black;
+}
+
+h1 {
+  font-family: "Signika Negative", sans-serif;
+}
+
+h2 {
+  font-family: "Signika Negative", sans-serif;
+}
+
+h3 {
+  font-family: "Signika Negative", sans-serif;
+}
+
+h4 {
+  font-family: "Signika Negative", sans-serif;
+}
+
+h5 {
+  font-family: "Signika Negative", sans-serif;
+}
+
+h6 {
+  font-family: "Signika Negative", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  min-height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn {
+  margin-left: 5px;
+}
+
+/* image slider */
+
+/* image slider */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vertical {
+  margin-top: 50%;
+}
