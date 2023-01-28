@@ -54,6 +54,16 @@
         margin-bottom: 10px; /* Added */
 }
 
+.testicard {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin: 20px;
+}
+
+
 .container{
   display: flex;
   align-items: center;
@@ -68,6 +78,23 @@
 .f-right {
     float: right;
 }
+
+
+.user-content p{
+    margin-top:5px;
+    font-size:12px;
+}
+
+
+.ratings i{
+    color:#FFC300;
+}
+
+.quotetester {
+    transform: translate(900%, -100%);
+
+}
+
     </style>
   </head>
 
@@ -209,7 +236,7 @@
           <div class="card-body">
             <div class="media d-flex">
               <div class="align-self-center">
-                <i class="fa-solid fa-camera fa-5x float-left" style="margin-left: 20px;"></i>
+                <i class="fa-solid fa-shapes fa-5x float-left" style="margin-left: 20px;"></i>
               </div>
               <div class="media-body text-right">
                 <h3 style="margin-left: 20px;">ADVENTURE PARK</h3>
@@ -230,7 +257,7 @@
           <div class="card-body">
             <div class="media d-flex">
               <div class="align-self-center">
-                <i class="fa-solid fa-camera fa-5x float-left" style="margin-left: 20px;"></i>
+                <i class="fa-solid fa-tree fa-5x float-left" style="margin-left: 20px;"></i>
               </div>
               <div class="media-body text-right">
                 <h3 style="margin-left: 20px;">ADVENTURE PARK</h3>
@@ -251,7 +278,7 @@
           <div class="card-body">
             <div class="media d-flex">
               <div class="align-self-center">
-                <i class="fa-solid fa-camera fa-5x float-left" style="margin-left: 20px;"></i>
+                <i class="fa-solid  fa-cutlery fa-5x float-left" style="margin-left: 20px;"></i>
               </div>
               <div class="media-body text-right">
                 <h3 style="margin-left: 20px;">ADVENTURE PARK</h3>
@@ -272,7 +299,7 @@
           <div class="card-body">
             <div class="media d-flex">
               <div class="align-self-center">
-                <i class="fa-solid fa-camera fa-5x float-left" style="margin-left: 20px;"></i>
+                <i class="fa-solid fa-seedling fa-5x float-left" style="margin-left: 20px;"></i>
               </div>
               <div class="media-body text-right">
                 <h3 style="margin-left: 20px;">ADVENTURE PARK</h3>
@@ -311,6 +338,7 @@
     </div>
   </div>
 </section>
+    
 
 <section class="section mt-5">
   <div class="container">
@@ -343,13 +371,141 @@
     </div>
 </div> 
 
+
 <!-- google map -->
+<div class="map-responsive">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.1013743399294!2d103.94072061475379!3d1.0862024992076929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98c951fbd3f2d%3A0x9f90699621826af5!2sKebun%20Jambu%20Marina!5e0!3m2!1sid!2sid!4v1674904514244!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- google map -->
+
+<!-- icon and desc -->
 <div>
-  <div id="map-container-google-1 " class="z-depth-1-half map-container center" style="height: 500px;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.1013743399294!2d103.94072061475379!3d1.0862024992076929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98c951fbd3f2d%3A0x9f90699621826af5!2sKebun%20Jambu%20Marina!5e0!3m2!1sid!2sid!4v1674902922640!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <div class="row text-center">
+    <div class="col-md-4 p-4">
+      <i class="fa fa-phone fa-3x" style="margin-bottom: 10px; color: #448337;"></i>
+        <p>0812-7010-8778</p>
+    </div>
+    <div class="col-md-4 p-4">
+      <i class="fa fa-map fa-3x" style="margin-bottom: 10px; color: #448337;"></i>
+        <p>Jl. Raya Marina City, Tj. Riau, Kec. Sekupang, Kota Batam, Kepulauan Riau 29425</p>
+    </div>
+    <div class="col-md-4 p-4">
+      <i class="fa fa-clock fa-3x" style="margin-bottom: 10px; color: #448337;"></i>
+        <p>08.00 s/d 18.00 WIB</p>
+    </div>
+
   </div>
 </div>
-<!-- google map -->
+
+<div>
+  <h1 class="text-center p-2">TESTIMONI</h1>  
+    <div>
+      <div class="container text-jusify">
+        <p style="color:#448337; text-align: center;">Comment dari Pengunjung</p>
+      </div>
+    </div>
+</div> 
+
+
+<div class="container mt-5 mb-5 justify-content-center">
+    
+  <div class="row g-2 justify-content-center">
+      <div class="col-md-4">
+          <div class="testicard p-3 text-left px-4 shadow-lg h-100">
+            
+            <i class="fa fa-quote-right pull-right fa-2x quotetester"></i>
+              <div class="user-image">
+               <img src="img/test-only/4.png" class="rounded-circle" width="80" height="80">
+                  
+              </div>
+              
+              <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                
+            </div>
+              
+              <div class="user-content">
+                  
+                  <h5 class="mb-0">Raffi/Dont Wory</h5>
+                  <span>Backend Developer</span>
+                  <p>Tempat hiburan ini bukan sembarang tempat hiburan. Saya juga jadi lebih sehat karena buah jambunya segar.</p>
+              </div>
+              
+             
+              
+          </div>
+      </div>
+      
+      <div class="col-md-4" >
+          
+          <div class="testicard p-3 text-left px-4 shadow-lg h-100">
+            <i class="fa fa-quote-right  fa-2x quotetester"></i>
+              <div class="user-image">
+                  
+          <img src="img/test-only/4.png" class="rounded-circle" width="80" height="80"
+                  >
+                  
+              </div>
+              <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                
+            </div>
+              
+              <div class="user-content">
+                  
+                  <h5 class="mb-0">Kiki</h5>
+                  <span>Wisatawan</span>
+                  <p>Saya adalah wisatawan yang telah mengelilingi Negeri ini selama lebih dari 10 tahun. Tempatnya keren bangeeeeetttttt hiks.</p>
+                  
+              </div>
+              
+    
+              
+          </div>
+          
+      </div>
+      
+      <div class="col-md-4">
+          
+          <div class="testicard p-3 text-left px-4  shadow-lg  h-100">
+            <i class="fa fa-quote-right  fa-2x quotetester"></i>
+              <div class="user-image">
+                  
+          <img src="img/test-only/4.png" class="rounded-circle" width="80" height="80"
+                  >
+                  
+              </div>
+              <div class="ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                
+            </div>
+              <div class="user-content">
+                  
+                  <h5 class="mb-0">Andre</h5>
+                  <span>Pengusaha</span>
+                  <p>Tempatnya asik untuk rekreasi bersama keluarga.</p>
+                  
+              </div>
+     
+              
+          </div>
+          
+      </div>
+      
+      
+  </div>
+  
+</div>
 
 
 
