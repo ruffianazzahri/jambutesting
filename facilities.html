@@ -85,6 +85,51 @@
   justify-content: center;
 }
 
+.form{
+position: relative;
+
+}
+
+.form .fa-search{
+
+position: absolute;
+top:20px;
+left: 20px;
+color: #9ca3af;
+
+}
+
+.form span{
+
+    position: absolute;
+right: 17px;
+top: 13px;
+padding: 2px;
+border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+padding-left: 7px;
+}
+
+.left-pan i{
+
+padding-left: 10px;
+}
+
+.form-input{
+
+height: 55px;
+text-indent: 33px;
+border-radius: 10px;
+}
+
+.form-input:focus{
+
+box-shadow: none;
+border:none;
+}
 
 </style>
 <script>
@@ -159,91 +204,229 @@ $(document).ready(function(){
 
 <body>
 
-  <section>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-9 mx-auto">
-          <!-- Accordion -->
-          <div id="accordionExample" class="accordion">
+
+  <div class="container">
+    <div>
+      <h1 class="text-center p-2">FASILITAS</h1>  
+        <div>
+          <div class="container text-jusify">
+            <p style="color:#448337; text-align: center;">Agrowisata Jambu Marina Batam</p>
+          </div>
+        </div>
+    </div> 
+  </div>
+
+
+<div>
+  <p style="color:black; text-align: center;">Have questions? We’re here to help</p>
+</div>
+
+<!-- search -->
+
+  <div class="container">
+
+    <div class="row height d-flex justify-content-center align-items-center">
+
+      <div class="col-md-6">
+
+        <div class="form shadow-lg">
+          <i class="fa fa-search"></i>
+          <input type="text" class="form-control form-input" placeholder="Search anything...">
+        </div>
+        
+      </div>
+      
+    </div>
     
-            <!-- Accordion item 1 -->
-            <div class="card marginleftandright">
-              <div id="headingOne" class="card-header pinkColor shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">MEMANAH</a></h6>
-              </div>
-              <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
-                <div class="card-body p-5">
-                  <div class="row">
-                    <div class="col-sm-6 p-2">
-                      <div>
-                        <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
-                      </div>
+  </div>
+
+<!-- search -->
+
+<!-- map -->
+
+  <div class="row">
+    <div class="col-6 mx-auto text-center">
+      <img src="img/map.png" class="img-fluid" alt="Peta" style="height: max-content; width: max-content; margin-top: 20px; margin-bottom: 20px;">
+    </div>
+
+
+
+<!-- map -->
+  
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto">
+        <!-- Accordion -->
+        <div id="accordionExample" class="accordion">
+  
+          <!-- Accordion item 1 -->
+          <div class="card">
+            <div id="headingOne" class="card-header pinkColor shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">MEMANAH</a></h6>
+            </div>
+            <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <div class="row">
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
                     </div>
-                    <div class="col-sm-6 p-2">
-                      <div>
-                        <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
-                        <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
-                      </div>
+                  </div>
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
+                      <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
                     </div>
-                </div>
+                  </div>
               </div>
             </div>
+          </div>
 
-                <!-- Accordion item 2 -->
-                <div class="card marginleftandright">
-                  <div id="headingTwo" class="card-header pinkColor shadow-sm border-0">
-                    <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">MEMANAH</a></h6>
-                  </div>
-                  <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
-                    <div class="card-body p-5">
-                      <div class="row">
-                        <div class="col-sm-6 p-2">
-                          <div>
-                            <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
-                          </div>
+              <!-- Accordion item 2 -->
+              <div class="card">
+                <div id="headingTwo" class="card-header pinkColor shadow-sm border-0">
+                  <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">BERKUDA</a></h6>
+                </div>
+                <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+                  <div class="card-body p-5">
+                    <div class="row">
+                      <div class="col-sm-6 p-2">
+                        <div>
+                          <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
                         </div>
-                        <div class="col-sm-6 p-2">
-                          <div>
-                            <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
-                            <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
-                          </div>
+                      </div>
+                      <div class="col-sm-6 p-2">
+                        <div>
+                          <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
+                          <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
                         </div>
-                    </div>
+                      </div>
                   </div>
                 </div>
-
-                    <!-- Accordion item 3 -->
-            <div class="card marginleftandright">
-              <div id="headingThree" class="card-header pinkColor shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">MEMANAH</a></h6>
               </div>
-              <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
-                <div class="card-body p-5">
-                  <div class="row">
-                    <div class="col-sm-6 p-2">
-                      <div>
-                        <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
-                      </div>
+
+                  <!-- Accordion item 3 -->
+          <div class="card">
+            <div id="headingThree" class="card-header pinkColor shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">FUN GAME</a></h6>
+            </div>
+            <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <div class="row">
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
                     </div>
-                    <div class="col-sm-6 p-2">
-                      <div>
-                        <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
-                        <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
-                      </div>
+                  </div>
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
+                      <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
                     </div>
-                </div>
+                  </div>
               </div>
             </div>
+          </div>
 
-            
-    
+                   <!-- Accordion item 4 -->
+                   <div class="card">
+                    <div id="headingFour" class="card-header pinkColor shadow-sm border-0">
+                      <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">TAMAN KELINCI</a></h6>
+                    </div>
+                    <div id="collapseFour" aria-labelledby="headingFour" data-parent="#accordionExample" class="collapse">
+                      <div class="card-body p-5">
+                        <div class="row">
+                          <div class="col-sm-6 p-2">
+                            <div>
+                              <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
+                            </div>
+                          </div>
+                          <div class="col-sm-6 p-2">
+                            <div>
+                              <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
+                              <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
 
-    
+          <!-- Accordion item 5 -->
+          <div class="card">
+            <div id="headingFive" class="card-header pinkColor shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">CAMPING</a></h6>
+            </div>
+            <div id="collapseFive" aria-labelledby="headingFive" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <div class="row">
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
+                    </div>
+                  </div>
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
+                      <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+            <!-- Accordion item 6 -->
+           <div class="card">
+            <div id="headingSix" class="card-header pinkColor shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">MUSHOLLA</a></h6>
+            </div>
+            <div id="collapseSix" aria-labelledby="headingSix" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <div class="row">
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
+                    </div>
+                  </div>
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
+                      <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accordion item 7 -->
+           <div class="card">
+            <div id="headingSeven" class="card-header pinkColor shadow-sm border-0">
+              <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2" style="text-decoration:none;">GAZEBO</a></h6>
+            </div>
+            <div id="collapseSeven" aria-labelledby="headingSeven" data-parent="#accordionExample" class="collapse">
+              <div class="card-body p-5">
+                <div class="row">
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <img alt="Logo" class="img-fluid" src="img/test-only/4.png" style="width: 512px; height:fit-content; float: left;  margin-left: -10px;" />
+                    </div>
+                  </div>
+                  <div class="col-sm-6 p-2">
+                    <div>
+                      <h3>LOKASI BARU, BANYAK WAHANA SERU!</h3>
+                      <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+
  
   
 </body>
@@ -329,7 +512,7 @@ $(document).ready(function(){
                   <!-- Copyright -->
     <div class="text-lg-start container p-4 pb-5 mx-auto">
       
-      <a style="margin-left: 10px;">2023  © Copyrights agrowisata-jambumarina.com</a>
+      <p class="text-center" style="margin-left: 10px;">2023  © Copyrights agrowisata-jambumarina.com</p>
     </div>
     <!-- Copyright -->
         <!--Grid row-->
@@ -341,5 +524,5 @@ $(document).ready(function(){
 
 
   </footer>
-  <!-- Footer -->s
+  <!-- Footer -->
 </html>
