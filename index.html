@@ -35,6 +35,49 @@
     <title>Jambu Marina</title>
 
     <style>
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map-responsive{
+
+overflow:hidden;
+
+padding-bottom:30%;
+
+position:relative;
+
+height:0;
+
+}
+
+.map-responsive iframe{
+
+left:0;
+
+top:0;
+
+height: 100%;
+
+width:100%;
+
+position:absolute;
+
+padding-left: 75px;
+padding-right: 75px;
+
+}
+
       .card-text {
     color: #fff;
 }
@@ -102,6 +145,8 @@
 
   <header>
   
+    
+
 <!-- Navbar -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div class="container">
@@ -160,42 +205,47 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<div id="carousel-example" class="carousel slide" data-ride="carousel">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/test-only/1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Gambar 1</h5>
-            </div>
-        </div>
-        <div class="carousel-item"> 
-            <img src="img/test-only/2.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Gambar 2</h5>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="img/test-only/3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Gambar 3</h5>
-            </div>
-        </div> 
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
+
+<div>
+  <div id="carousel-example" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="img/test-only/1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                  <h5>Gambar 1</h5>
+              </div>
+          </div>
+          <div class="carousel-item"> 
+              <img src="img/test-only/2.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Gambar 2</h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+              <img src="img/test-only/3.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Gambar 3</h5>
+              </div>
+          </div> 
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
 </div>
+
+
 
 
 
@@ -318,16 +368,21 @@
 </div>
 <!-- card fix -->
 
+
+<!-- yt -->
 <section class="section mt-5">
   <div class="container">
     <div class="row">
       
-      <div class="col-md-6 p-5 ml-auto d-flex align-items-center mt-4 mt-md-0" >
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="420" height="236" src="https://www.youtube.com/embed/GlAdirxN5-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class="col-sm-6 p-5" >
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/GlAdirxN5-M"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+            allowfullscreen></iframe>
         </div>
       </div>
-
          
       <div class="col-md-6 p-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
         <div>
@@ -339,6 +394,36 @@
     </div>
   </div>
 </section>
+
+<!-- yt -->
+
+<!-- yt 2-->
+<section class="section mt-5">
+  <div class="container">
+    <div class="row">
+  
+      <div class="col-md-6 p-5 ml-auto d-flex align-items-center mt-4 mt-md-0">
+        <div>
+          <h1>LOKASI BARU, BANYAK WAHANA SERU!</h2>
+          <p class="margin-top-s"> Berbagai aktifitas bisa dilakukan pengunjung, diantaranya memetik jambu, menikmati jus jambu, berkuda, memberi makan hewan ternak seperti ikan, kambing, dan kelinci, serta menanam padi di sawah. Adapun biaya yang dikeluarkan saat mengunjungi destinasi wisata ini, yakni 18 ribu berlaku untuk semua usia. Dengan tiket masuk itu, selain menikmati kebun jambu pengunjung juga akan mendapatkan jus jambu yang segar.</p>
+         
+        </div>
+      </div>
+        
+      <div class="col-sm-6 p-5" >
+        <div class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/GlAdirxN5-M"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- yt 2-->
 
 <div>
   <h1 class="text-center p-2">TEMUKAN KAMI</h1>  
@@ -505,9 +590,9 @@
           style="background-color: #448337"
           >
     <!-- Grid container -->
-    <div class="container p-4 pb-0">
+    <div class="container-fluid p-4 pb-0">
       <!-- Section: Links -->
-      <section class="">
+      <section class="container-fluid">
         <!--Grid row-->
         <div class="row">
           <!-- Grid column -->
